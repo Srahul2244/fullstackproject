@@ -1,0 +1,33 @@
+/* .div{
+    color: red;
+}
+.cart{
+    border: 1px solid cyan;
+    display: flex;
+    height: 35%;
+} */
+
+
+.carts{
+    display: flex;
+    margin:auto;
+    width:84%;
+    justify-content: space-between;
+    
+}
+.cart{
+    width : 33rem ;
+    margin: auto;
+}
+
+@media all and (min-width:400px) and (max-width:1124px){
+    .carts{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 1rem;
+    }
+    .cart{
+        width: 100%;
+    }
+}
